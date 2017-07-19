@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/venus
+   */site-packages/venus
+
+[run]
+branch = true
+source =
+    venus
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
